@@ -7,5 +7,5 @@ best localization accuracy in all 7scenes datasets, with sub-10cm level accuracy
 - Authors: Shengjun Tang<sup>*</sup>, **Yusong Li<sup>\*</sup>**, Jiawei Wan, You Li, Baoding Zhou, Renzhong Guo, Weixi Wang, Yuhong Feng
 
 <p align="center">
-  <img src="https://github.com/Geelooo/TransCNNloc/tree/main/framework.png" width="600" height="400">
+  <img src="https://github.com/Geelooo/TransCNNloc/framework.png" width="600" height="400">
 </p>
