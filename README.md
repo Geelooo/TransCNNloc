@@ -9,3 +9,12 @@ best localization accuracy in all 7scenes datasets, with sub-10cm level accuracy
 <p align="center">
   <img src="framework.png" width="600" height="400">
 </p>
+
+
+## Installation
+Installing the package locally also installs the minimal dependencies listed in <span style="background-color: lightgray">requirements.txt</span>:
+```
+git clone https://github.com/Geelooo/TransCNNloc.git
+cd TransCNNloc/
+pip install -e .
+```

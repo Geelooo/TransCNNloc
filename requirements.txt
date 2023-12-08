@@ -1,5 +1,5 @@
-# torch>=1.7
-# torchvision>=0.8
+torch>=1.11
+torchvision>=0.12
 numpy
 opencv-python
 tqdm
