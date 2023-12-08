@@ -27,7 +27,9 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-To specify the file directories, we use ```settings.py``` and ```run_scripts.py``` files. The dependencies from [third-party libraries](https://drive.google.com/file/d/1pN3UVUmFwVBbtjbwc4bbUJ2hMVSH15ku/view?usp=sharing) need to be downloaded in advance. We utilize both publicly available datasets, such as 7Scenes, and our [own collected data](https://drive.google.com/file/d/1HrsrM5lpSFMHiy1KnnGmgiGAGnl3XxOH/view?usp=sharing). By doing so, we can evaluate and compare the performance across different datasets.
+To specify the file directories, we use ```settings.py``` and ```run_scripts.py``` files. 
+
+The dependencies from [third-party libraries](https://drive.google.com/file/d/1pN3UVUmFwVBbtjbwc4bbUJ2hMVSH15ku/view?usp=sharing) need to be downloaded in advance. We utilize both publicly available datasets, such as 7Scenes, and our [own collected data](https://drive.google.com/file/d/1HrsrM5lpSFMHiy1KnnGmgiGAGnl3XxOH/view?usp=sharing). By doing so, we can evaluate and compare the performance across different datasets.
 
 ```
 python -m run_scripts --scene=jiawei_cheku
