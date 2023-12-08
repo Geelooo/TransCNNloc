@@ -17,25 +17,23 @@ best localization accuracy in all 7scenes datasets, with sub-10cm level accuracy
 </p>
 
 ## Installation
-Installing the package locally also installs the minimal dependencies listed in <span style="background-color: lightgray">requirements.txt</span>:
+Installing the package locally also installs the minimal dependencies listed in ```requirements.txt```:
 ```
 git clone https://github.com/Geelooo/TransCNNloc.git
 cd TransCNNloc/
-pip install -e .
+pip install -r requirements.txt
 ```
 
 
 ## Data Preparation
 
-我们通过settings.py和run_sripts.py来指定文件目录
-[第三方依赖](https://drive.google.com/file/d/1pN3UVUmFwVBbtjbwc4bbUJ2hMVSH15ku/view?usp=sharing)需要提前下载
-我们既使用了公开数据集7Scenes和[自采数据](https://drive.google.com/file/d/1HrsrM5lpSFMHiy1KnnGmgiGAGnl3XxOH/view?usp=sharing),
-通过
+To specify the file directories, we use ```settings.py``` and ```run_scripts.py``` files. The dependencies from [third-party libraries](https://drive.google.com/file/d/1pN3UVUmFwVBbtjbwc4bbUJ2hMVSH15ku/view?usp=sharing) need to be downloaded in advance. We utilize both publicly available datasets, such as 7Scenes, and our [own collected data](https://drive.google.com/file/d/1HrsrM5lpSFMHiy1KnnGmgiGAGnl3XxOH/view?usp=sharing). By doing so, we can evaluate and compare the performance across different datasets.
+
 ```
-python -m run_sripts --scene=jiawei_cheku
+python -m run_scripts --scene=jiawei_cheku
 ```
 To run and evaluate position accuracy.
-- <span style="background-color: lightgray">--scenet</span> parameter can be used to specify different datasets. 
+- ```--scene``` parameter can be used to specify different datasets. 
 
 The dataset should be organized according to the specified format mentioned above. Adjust the paths in the configuration file accordingly and evaluate different datasets as needed.
 
